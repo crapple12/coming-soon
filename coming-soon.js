@@ -30,6 +30,7 @@ seconds.textContent = secondsValue;
         document.getElementById("countdown").innerHTML = "EXPIRED";
     }
 }, 1000);
+       
 
 
 
