@@ -34,6 +34,10 @@ body {
     text-align: left;
 }
 
+.text p {
+    color: #555555;
+}
+
 .coming-soon {
     display: flex;
     flex-direction: column;
@@ -56,26 +60,44 @@ body {
     padding: 10px;
     font-size: 18px;
     margin-right: 10px;
+
 }
 
-.notify-form form {
+#form {
     display: flex;
+    padding: 5px;
+    background: white;
+    border-radius: 30px;
 }
 
 .notify-box {
     padding: 10px;
-    font-size: 18px;
+    font-size: 12px;
     width: 80%;
     margin-right: 10px;
+    border: 0.1px solid white;
+    border-radius: 30px;
+}
+
+.notify-box:focus {
+    outline: none;
 }
 
 .notify-button {
-    width: auto;
+    height: 100%;
+    width: 50%;
+    max-width: 100px;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 12px;
     background-color: #007BFF;
+    border-radius: 30px;
     color: white;
     border: none;
+
+}
+
+.notify-button:hover {
+    background-color: #0056b3;
     cursor: pointer;
 }
 
